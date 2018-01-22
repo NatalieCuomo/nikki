@@ -2,12 +2,14 @@ body{
   background-color: black;
   text-align: center;
   font-family: verdana;
+
+
 }
 
 h1{
   font-family: verdana;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
@@ -17,6 +19,7 @@ h3{
   font-size: 16px;
   font-weight: normal;
   text-decoration: underline;
+
 }
 
 h2{
@@ -40,33 +43,31 @@ h2{
   text-decoration: none
 }
 
-.header{
-  opacity: .5
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  border: 2px dotted white;
-  width: 500px
-  padding: 20px 20px;
-  margin: 20px, 20px;
+header{
+  position: fixed;
+  height: 75px;
+  text-align: center;
+  padding-bottom: 25px;
+  z-index: 10;
+  border: 2px solid white;
+  width: 100%;
+  margin: 0 auto;
+
+
+
+
+
 
 }
 
 .container{
-  background-color: grey;
-  opacity: 1
-  height: 100px;
-  width: 500px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
-.center{
-  height: 10px;
-  width: 10px;
-  background-color: whitesmoke;
-  border: 1px solid black;
-  display: inline-block;
-  align items: center;
-  z index= 1
+.col{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }
