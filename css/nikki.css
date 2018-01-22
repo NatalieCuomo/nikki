@@ -72,3 +72,15 @@ header{
   flex-direction: column;
   justify-content: center;
 }
+
+.box{
+  border: 2px dotted hotpink;
+  border-radius: 100%;
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+  display: center;
+  position: relative;
+  margin: 0 auto;
+
+}
